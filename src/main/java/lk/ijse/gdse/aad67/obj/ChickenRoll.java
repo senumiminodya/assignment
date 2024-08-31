@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Primary
-@Qualifier
+@Qualifier("ChickenBun")
 public class ChickenRoll {
     public ChickenRoll() {
         System.out.println("Chicken Roll");
